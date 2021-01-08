@@ -3,4 +3,4 @@
   1. yarn init -y
 
   2. webpack 설치
-  [x] yarn add -D webpack webpack-cli webpack-dev-server
+  [X] yarn add -D webpack webpack-cli webpack-dev-server
