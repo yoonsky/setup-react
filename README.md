@@ -9,13 +9,10 @@
 - [x] _yarn add -D webpack webpack-cli webpack-dev-server_
 - [x] script 명령어 추가 _"start": "webpack-dev-server --config ./webpack.config.js --mode development"_
 - [x] 추가적으로 유용한 플러그인 설치하기 _yarn add html-webpack-plugin clean-webpack-plugin_
-<pre>
-<code>
-    => html-webpack-plugin : html에 번들링한 js파일을 삽입하고, html파일을 번들링 된 결과물이 저장될 폴더에 옮겨준다!
 
-    => clean-webpack-plugin : 번들링 할 때마다 이전 번들링 결과를 제거해준다!
-<code>
-</pre>
+* => html-webpack-plugin : html에 번들링한 js파일을 삽입하고, html파일을 번들링 된 결과물이 저장될 폴더에 옮겨준다!
+
+* => clean-webpack-plugin : 번들링 할 때마다 이전 번들링 결과를 제거해준다!
 
 - [x] root 경로에 webpack.config.js 파일 설정하기 (+ 이후에 더 추가)
 
