@@ -78,14 +78,15 @@
 
 ### 4. babel 설치 및 설정
 
-- [x] _yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react babel-preset-es2015_
+- [x] _yarn add -D babel-loader @babel/core @babel/preset-env @babel/preset-react babel-preset-es2015 @babel/preset-typescript_
 - [x] root 경로에 .babelrc 파일 생성 후 아래 코드 추가
 <pre>
 <code>
   {
     "presets": [
       "@babel/preset-env",
-      "@babel/preset-react"
+      "@babel/preset-react",
+      "@babel/preset-typescript"
     ]
   }
 </code>
