@@ -6,7 +6,9 @@
   - [x] _yarn add -D webpack webpack-cli webpack-dev-server_
   - [x] script 명령어 추가 _"start": "webpack-dev-server --config ./webpack.config.js --mode development"_
   - [x] root 경로에 webpack.config.js 파일 설정하기
-
+  
+  <pre>
+  <code>
       module.exports={
     entry:[
       './src/index'
@@ -28,3 +30,5 @@
       extensions:['*','.js','.jsx','.ts','.tsx']
     }
   }
+  </code>
+  </pre>
